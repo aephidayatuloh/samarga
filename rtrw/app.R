@@ -38,7 +38,7 @@ server <- function(input, output, session){
   Sys.sleep(3)
   waiter_hide() # hide the waiter
   
-  shinyalert(title = "S A M A R G A", text = "Sistem dan Aplikasi Masyarakat Sejahtera dan Bahagia")
+  shinyalert(title = "SAWARGA", text = "Sistem dan Aplikasi Warga Sejahtera dan Bahagia")
 }
 
 shinyApp(ui, server)
